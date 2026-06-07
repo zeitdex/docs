@@ -4,7 +4,7 @@ This documentation uses [VuePress v2](https://v2.vuepress.vuejs.org/), which mak
 
 ## Use custom components
 
-VuePress allows sites to create custom components, which this project stores in [`.vuepress/theme/page-components`](https://github.com/sleepdiary/docs/tree/main/.vuepress/theme/page-components).
+VuePress allows sites to create custom components, which this project stores in [`.vuepress/theme/page-components`](https://github.com/zeitdex/docs/tree/main/.vuepress/theme/page-components).
 
 ### Add an image frame
 
@@ -53,7 +53,7 @@ Pages can use both in-page Vue functionality and new components to improve the r
 Creating a new page involves a bit of administrative work:
 
 1. Create the page itself
-2. Add a link in [`.vuepress/config.js`](https://github.com/sleepdiary/docs/tree/main/.vuepress/config.js)
+2. Add a link in [`.vuepress/config.js`](https://github.com/zeitdex/docs/tree/main/.vuepress/config.js)
 
 `config.js` controls which pages appear in the sidebar on the left, and what order they appear in.  Make sure to put your page in a place that people will find it.
 
@@ -63,7 +63,7 @@ Creating a new folder involves quite a bit of administrative work:
 
 1. Create the folder itself
 2. Create a `README.md` file in that directory
-3. Add a section in [`.vuepress/config.js`](https://github.com/sleepdiary/docs/tree/main/.vuepress/config.js)
-4. Add a symbolic link in [`.vuepress/public`](https://github.com/sleepdiary/docs/tree/main/.vuepress/public)
+3. Add a section in [`.vuepress/config.js`](https://github.com/zeitdex/docs/tree/main/.vuepress/config.js)
+4. Add a symbolic link in [`.vuepress/public`](https://github.com/zeitdex/docs/tree/main/.vuepress/public)
 
-A symbolic link is a filesystem mechanism used by the `<ImageFrame>` component to make image links work the same as site links.  If you're not sure how to make symlinks, [create an issue](https://github.com/sleepdiary/docs/issues/new/choose) and someone can walk you through it or do it for you.
+A symbolic link is a filesystem mechanism used by the `<ImageFrame>` component to make image links work the same as site links.  If you're not sure how to make symlinks, [create an issue](https://github.com/zeitdex/docs/issues/new/choose) and someone can walk you through it or do it for you.

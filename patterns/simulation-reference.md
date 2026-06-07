@@ -1,6 +1,6 @@
 # Simulation reference
 
-This page contains a complete list of available features you can use when you [create your own simulation](simulate#create-your-own).  You may also like to see [the simulation framework on GitHub](https://github.com/sleepdiary/docs/tree/main/.vuepress/theme/page-components/Simulate.vue).
+This page contains a complete list of available features you can use when you [create your own simulation](simulate#create-your-own).  You may also like to see [the simulation framework on GitHub](https://github.com/zeitdex/docs/tree/main/.vuepress/theme/page-components/Simulate.vue).
 
 ## Pre-declared variables
 

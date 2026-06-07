@@ -28,7 +28,7 @@ Lines after the second are the _CSV body_.  They indicate the times for specific
 
 The way to generate this data depends on your data source.  The examples below discuss some possible solutions, but you may need to do some programming to make your particular source work.
 
-The examples on this page use [the dashboard](https://sleepdiary.github.io/dashboard) to analyse your data.  See [the ActivityLog documentation](https://github.com/sleepdiary/core/tree/main/src/ActivityLog) if you're interested in creating your own analysis software.
+The examples on this page use [the dashboard](https://zeitlog.github.io/) to analyse your data.  See [the ActivityLog documentation](https://github.com/zeitlog/core/tree/main/src/ActivityLog) if you're interested in creating your own analysis software.
 
 ## Calendars
 
@@ -39,7 +39,7 @@ Calendars store the dates and times when events occur.  If you normally have eve
 
 Most calendar software can export to [iCalendar format](https://en.wikipedia.org/wiki/ICalendar) - a standard format designed to be read by other calendaring programs.  You will need to search online to find the relevant steps for your program.
 
-Once you have an iCalendar file, you can add it directly to [the dashboard](https://sleepdiary.github.io/dashboard).  It will convert the file to an activity log automatically.
+Once you have an iCalendar file, you can add it directly to [the dashboard](https://zeitlog.github.io/).  It will convert the file to an activity log automatically.
 
 ### Limitations
 
@@ -61,11 +61,11 @@ Browsers store the date and time whenever you go to a new page, so they can deci
 
 The first step is to find your history database.  Type `chrome:version` or `about:support` in the address bar - depending on your browser, one or other of them should take you to a page full of technical information.  The line that says `Profile Path` or `Profile Directory` tells you the folder where your profile is saved.  Depending on your browser, your history database will be called `History`, `History.db` or `places.sqlite` in that folder.  If you are using MacOS and can't see your profile folder, press `Cmd` + `Shift` + `G` in the Finder and type your folder name.
 
-[The dashboard](https://sleepdiary.github.io/dashboard) can create an activity log directly from your history database.  You can skip the next stage if you're comfortable with that.
+[The dashboard](https://zeitlog.github.io/) can create an activity log directly from your history database.  You can skip the next stage if you're comfortable with that.
 
 ### Manually create an activity log (optional)
 
-If you would rather not upload your complete browser history to [the dashboard](https://sleepdiary.github.io/dashboard), you can extract your activity log by hand with a command-line program called [SQLite](https://www.sqlite.org/download.html).  This is installed by default in MacOS and available for all Linux distributions, but you will have to install it manually if you use Windows.  Once you've installed SQLite, run one of these commands on a command-line (remember to replace `...` with the folder from the first step):
+If you would rather not upload your complete browser history to [the dashboard](https://zeitlog.github.io/), you can extract your activity log by hand with a command-line program called [SQLite](https://www.sqlite.org/download.html).  This is installed by default in MacOS and available for all Linux distributions, but you will have to install it manually if you use Windows.  Once you've installed SQLite, run one of these commands on a command-line (remember to replace `...` with the folder from the first step):
 
 ```bash
 # Run whichever command matches your history filename:
@@ -78,7 +78,7 @@ If you see a message like `Error: database is locked`, you will need to close yo
 
 Depending on your browser, your file will be called `activity-log.chrome.csv`, `activity-log.firefox.csv` or `activity-log.safari.csv`.  You can confirm its contents by opening it like a normal spreadsheet.
 
-Finally, add your activity log or history database to [the dashboard](https://sleepdiary.github.io/dashboard).  You might like to convert the result to a spreadsheet, so you can fix anything it got wrong.
+Finally, add your activity log or history database to [the dashboard](https://zeitlog.github.io/).  You might like to convert the result to a spreadsheet, so you can fix anything it got wrong.
 
 ### Limitations
 
@@ -163,4 +163,4 @@ As with all reconstructed diaries, a desktop log can give you a general idea of 
 
 The examples above show how to extract an activity log from some sources.  It generally involves _extracting_ the data you want from the source, _converting_ it to an activity log, then _analysing_ it with the diary.
 
-If you work out how to extract data from another source, [let us know](https://github.com/sleepdiary/docs/issues/new?title=Reconstruct+a+diary+from+a+new+source) so we can add it to this page!
+If you work out how to extract data from another source, [let us know](https://github.com/zeitdex/docs/issues/new?title=Reconstruct+a+diary+from+a+new+source) so we can add it to this page!

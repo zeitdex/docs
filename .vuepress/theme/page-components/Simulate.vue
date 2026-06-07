@@ -42,7 +42,7 @@ export default {
   mounted () {
 
     const elem = document.createElement("script");
-    elem.setAttribute( "src", "https://sleepdiary.github.io/core/sleepdiary-core.min.js" );
+    elem.setAttribute( "src", "https://zeitlog.github.io/core/sleepdiary-core.min.js" );
     document.body.appendChild(elem);
 
     const interval = setInterval( () => {
@@ -52,7 +52,7 @@ export default {
 
       const diary_loader = new window.DiaryLoader(
         diary => {
-          const url = 'https://sleepdiary.github.io/dashboard/#?'+diary.to("Standard").to("url");
+          const url = 'https://zeitlog.github.io/#?'+diary.to("Standard").to("url");
           if ( this.run ) {
             const elem = document.createElement('A');
             elem.setAttribute( "href", url );

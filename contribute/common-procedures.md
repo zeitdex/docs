@@ -52,11 +52,11 @@ To keep the build system as standard as possible, all dependencies need to be ca
 
 Some files in the "docs" repo are generated automatically using files from the "resources" repo.  This could be triggered automatically using [a special GitHub Actions script](https://github.com/peter-evans/repository-dispatch), but GitHub's relatively coarse permissions system means it would require careful design.  Until then, we put up with triggering events manually:
 
-1. Go to [the "Generate from resources" action](https://github.com/sleepdiary/docs/actions/workflows/generate-from-resources.yml)
+1. Go to [the "Generate from resources" action](https://github.com/zeitdex/docs/actions/workflows/generate-from-resources.yml)
 2. click "Run workflow" (to the right "This workflow has a workflow_dispatch event trigger")
 3. click the green "Run workflow" button
 4. wait for the workflow to complete
-5. go to [the list of pull requests](https://github.com/sleepdiary/docs/pulls)
+5. go to [the list of pull requests](https://github.com/zeitdex/docs/pulls)
 6. review and accept the PR created by the workflow
 
 ## Create a new repository

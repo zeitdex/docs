@@ -6,7 +6,7 @@
 
 This section of the wiki discusses common patterns of sleep, and how to manage them.
 
-[The dashboard](https://sleepdiary.github.io/dashboard/) tries to detect some patterns automatically.  The algorithm it uses is available in [patterns.js](https://github.com/sleepdiary/info/blob/main/src/patterns.js).
+[The dashboard](https://zeitlog.github.io/) tries to detect some patterns automatically.  The algorithm it uses is available in [patterns.js](https://github.com/zeitlog/info/blob/main/src/patterns.js).
 
 <div style="clear:both"></div>
 

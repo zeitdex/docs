@@ -66,7 +66,7 @@ The Sleep Disorder Patient Chart, pioneered by [Harvey Moldofsky](http://sites.u
 
 It can be hard to sustain the amount of data this chart requires, because you need to track multiple events throughout your day.  You might prefer to use this format when you're waiting for an appointment with a sleep doctor, but something easier the rest of the time.
 
-[The dashboard](https://sleepdiary.github.io/dashboard) has a _printable report_ that resembles a Sleep Disorder Patient Chart, and can be constructed from many diary formats (including spreadsheet files like those above).
+[The dashboard](https://zeitlog.github.io/) has a _printable report_ that resembles a Sleep Disorder Patient Chart, and can be constructed from many diary formats (including spreadsheet files like those above).
 
 [Download an example chart](https://sleepsupportproject.org/wp-content/uploads/2020/11/sleep-diary-BLANK.pdf) from the Sleep Support Project.
 
@@ -100,7 +100,7 @@ The main benefit of a mobile app is that you can keep it by your bedside, withou
 
 Common mobile apps include [Sleepmeter](http://www.squalllinesoftware.com/?q=node/2) and [Sleep as Android](https://sleep.urbandroid.org/), but you might find something you prefer on your device's app store.
 
-[The dashboard](https://sleepdiary.github.io/dashboard) can read files created by most mobile apps.  See [the list of supported formats](./formats.md).
+[The dashboard](https://zeitlog.github.io/) can read files created by most mobile apps.  See [the list of supported formats](./formats.md).
 
 # Reconstructing a diary
 
