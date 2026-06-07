@@ -98,7 +98,7 @@ module.exports = {
     logo: '/../favicon.svg',
     logoDark: '/../favicon-dark.svg',
 
-    repo: 'https://github.com/sleepdiary/docs',
+    repo: 'https://github.com/zeitdex/docs',
 
     lastUpdated: true,
 

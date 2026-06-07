@@ -6,45 +6,45 @@ We support the following formats:
 
 <table><tr>
  <td><div style="height:40px;width:40px"></div></td>
- <td><a href="https://sleepdiary.github.io/core/src/Standard">Standardised diary format</a></td>
+ <td><a href="https://zeitlog.github.io/core/src/Standard">Standardised diary format</a></td>
 </tr>
 <tr>
  <td><img style="height:40px;min-width:40px" src="http://www.squalllinesoftware.com/sites/squalllinesoftware.com/files/sleepmeter_logo_128x128.png"></td>
- <td><a href="https://sleepdiary.github.io/core/src/Sleepmeter">Sleepmeter</a></td>
+ <td><a href="https://zeitlog.github.io/core/src/Sleepmeter">Sleepmeter</a></td>
 </tr>
 <tr>
  <td><img style="height:40px;min-width:40px" src="https://docs.sleep.urbandroid.org/assets/images/logo.png"></td>
- <td><a href="https://sleepdiary.github.io/core/src/SleepAsAndroid">Sleep as Android</a></td>
+ <td><a href="https://zeitlog.github.io/core/src/SleepAsAndroid">Sleep as Android</a></td>
 </tr>
 <tr>
  <td><img style="height:40px;min-width:40px" src="https://raw.githubusercontent.com/vmiklos/plees-tracker/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"></td>
- <td><a href="https://sleepdiary.github.io/core/src/PleesTracker">Plees Tracker</a></td>
+ <td><a href="https://zeitlog.github.io/core/src/PleesTracker">Plees Tracker</a></td>
 </tr>
 <tr>
  <td><img style="height:40px;min-width:40px" src="https://www.supermemo.com/assets/images/frontpage2/intro/icon4.svg"></td>
- <td><a href="https://sleepdiary.github.io/core/src/SleepChart1">SleepChart 1.0</a></td>
+ <td><a href="https://zeitlog.github.io/core/src/SleepChart1">SleepChart 1.0</a></td>
 </tr>
 <tr>
  <td><div style="height:40px;width:40px"></div></td>
- <td><a href="https://sleepdiary.github.io/core/src/ActivityLog">Activity Log</a></td>
+ <td><a href="https://zeitlog.github.io/core/src/ActivityLog">Activity Log</a></td>
 </tr>
 <tr>
  <td><img style="height:40px;min-width:40px" src="https://community.fitbit.com/html/assets/fitbit_logo_1200.png"></td>
- <td><a href="https://sleepdiary.github.io/core/src/Fitbit">fitbit</a></td>
+ <td><a href="https://zeitlog.github.io/core/src/Fitbit">fitbit</a></td>
 </tr>
 <tr>
  <td><div style="height:40px;width:40px"></div></td>
- <td><a href="https://sleepdiary.github.io/core/src/SpreadsheetTable">Spreadsheet Table</a></td>
+ <td><a href="https://zeitlog.github.io/core/src/SpreadsheetTable">Spreadsheet Table</a></td>
 </tr>
 <tr>
  <td><div style="height:40px;width:40px"></div></td>
- <td><a href="https://sleepdiary.github.io/core/src/SpreadsheetGraph">Spreadsheet Graph</a></td>
+ <td><a href="https://zeitlog.github.io/core/src/SpreadsheetGraph">Spreadsheet Graph</a></td>
 </tr>
 </table>
 
-* if your format is in the list above but [the dashboard](/dashboard) can't load it, [let us know](https://github.com/sleepdiary/sleepdiary.github.io/issues/new?assignees=&labels=bug&template=bug_report.md&title=)
+* if your format is in the list above but [the dashboard](/dashboard) can't load it, [let us know](https://github.com/zeitdex/zeitdex.github.io/issues/new?assignees=&labels=bug&template=bug_report.md&title=)
   * but see the tips below first if it's a hand-made spreadsheet
-* if your format isn't in the list above, [contact us](https://github.com/sleepdiary/sleepdiary.github.io/issues/new?assignees=&labels=&template=feature_request.md&title=)
+* if your format isn't in the list above, [contact us](https://github.com/zeitdex/zeitdex.github.io/issues/new?assignees=&labels=&template=feature_request.md&title=)
 
 ## Hand-made spreadsheets
 

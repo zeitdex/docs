@@ -7,7 +7,7 @@
     "name": "Sleep Diary Documenters",
     "email": "sleepdiary@pileofstuff.org"
   },
-  "repository": "https://github.com/sleepdiary/docs",
+  "repository": "https://github.com/zeitdex/docs",
   "scripts": {
     "dev": "vuepress dev .",
     "build": "vuepress build .",
